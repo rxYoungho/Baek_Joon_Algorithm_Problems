@@ -5,6 +5,7 @@
 # 각 테스트 케이스는 한 줄로 이루어져 있으며, 각 줄에 A와 B가 주어진다. (0 < A, B < 10)
 
 #입력    출력
+# 5
 # 1 1     2
 # 2 3     5
 # 3 4     7
@@ -12,10 +13,11 @@
 # 5 2     7
 
 testcase = int(input())
+
 listA = []
 for i in range(testcase):
     a, b = map(int,input().split())
     listA.append(a+b)
     
-for x in listA:
+for x in listA: #for loop에서 in variableName 쓸거면 무조건 list형태여야 한다.
     print(x)
