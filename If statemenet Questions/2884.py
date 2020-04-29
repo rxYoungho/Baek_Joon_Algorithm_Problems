@@ -31,6 +31,9 @@
 #10 10
 #예제 출력 (시 : 분)
 #9 25
+#10 10 =>> H, M = map(int,input().split()) => 10 10
+#-> H = 10 , M = 10
+
 H, M = map(int, input().split())
 
 if M > 44 :
